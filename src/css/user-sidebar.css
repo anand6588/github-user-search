@@ -1,0 +1,27 @@
+.user-profile-sidebar
+{
+	width : 30%;
+	text-align: center;
+}
+
+.user-profile-sidebar img
+{
+	height: 180px;
+	border-radius: 5px;
+}
+
+.user-profile-sidebar , .user-content
+{
+	float : left;
+}
+
+.user-name
+{
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.user-email
+{
+	font-size: 13px;
+}

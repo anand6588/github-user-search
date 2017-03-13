@@ -1,0 +1,34 @@
+ul.payload-list
+{
+	font-size: 13px;
+	padding-left: 40px;
+	margin-top: 30px;
+}
+ul.payload-list li span,
+ul.payload-list li label
+{
+	float : left;
+	line-height: 25px;
+}
+ul.payload-list li:after
+{
+	clear: both;
+    content: " ";
+    margin-bottom: 20px;
+    display: block;
+    border-bottom: solid 1px #eceaea;
+    width: 95%;
+}
+.payload-list label
+{
+	color : #aaa;
+	width : 23%;
+	word-break: break-word;
+	text-transform: capitalize;
+	margin-right: 5px;
+}
+.payload-list span
+{
+	width: 65%;
+    word-break: break-word;
+}
